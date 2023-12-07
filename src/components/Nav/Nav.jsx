@@ -5,13 +5,14 @@ import SearchBar from "../SearchBar/SearchBar";
 import { NavLink } from "react-router-dom";
 
 
-export default function Nav(props) {
+export default function Nav({onSearch,logOut}) {
+   
     return (
        <div className="navContainer">
           <NavLink to={'/About'}>About</NavLink>
           <NavLink  to={'/Home'}>Home</NavLink>
-          <SearchBar onSearch={props.onSearch} />
-        
+          <SearchBar onSearch={onSearch} />
+          <button onClick={logOut}>LogOut</button>
        </div>
     );
  }

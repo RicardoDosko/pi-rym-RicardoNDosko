@@ -1,0 +1,70 @@
+.conatinerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 795px;
+}
+
+.conatinerForm form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-image: url("../../assets/fondoLogin.jpeg");
+    background-size: 400px 500px;
+}
+
+.conatinerForm h1,
+.conatinerForm label {
+    font-family: system-ui;
+    user-select: none;
+    color: whitesmoke;
+}
+
+.conatinerForm div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 85%;
+    height: 95px;
+}
+
+.conatinerForm input {
+    border: none;
+    border-radius: 5px;
+    height: 27px;
+    background-color: rgba(245, 245, 245);
+}
+
+.containerButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 85%;
+    height: 70px;
+}
+
+.msgError {
+    margin: 0px;
+    font-size: 12px;
+    color: red;
+}
+
+.containerButton button {
+    font-family: system-ui;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 30%;
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+.containerButton button:hover {
+    background-color: darkseagreen;
+}

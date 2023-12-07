@@ -1,0 +1,14 @@
+.containerError {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 700px;
+}
+
+.containerError img {
+    border-radius: 20px;
+    opacity: 0.950;
+    width: 95%;
+    height: 600px;
+}

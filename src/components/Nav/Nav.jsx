@@ -2,12 +2,16 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import SearchBar from "../SearchBar/SearchBar";
+import { NavLink } from "react-router-dom";
 
 
 export default function Nav(props) {
     return (
        <div className="navContainer">
+          <NavLink to={'/About'}>About</NavLink>
+          <NavLink  to={'/Home'}>Home</NavLink>
           <SearchBar onSearch={props.onSearch} />
+        
        </div>
     );
  }

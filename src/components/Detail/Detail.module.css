@@ -1,0 +1,46 @@
+.containerDeatil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 700px;
+}
+
+.containerDescriptions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    width: 90%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.662);
+}
+
+.containerDescriptions img {
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.containerData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+}
+
+.containerData h1 {
+    margin-left: 10px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+.containerData h2 {
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}

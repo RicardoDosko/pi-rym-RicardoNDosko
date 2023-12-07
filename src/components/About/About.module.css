@@ -1,0 +1,43 @@
+.containerAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78%;
+    height: 700px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+.containerDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 0px 20px;
+    width: 45%;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+.containerDescription p {
+    font-size: 15px;
+    width: 60%;
+}
+
+.containerImgUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    width: 45%;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+.containerImgUser img {
+    width: 250px;
+    height: 250px;
+}

@@ -2,16 +2,16 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-export default function Card({ name, status, species, gender, origin, image, onClose }) {
+export default function Card({id, name, status, species, gender, origin, image, onClose }) {
   return (
     <div className='cardContainer'>
         <>
-          <button onClick={onClose}>X</button>
+          <button className='buttonCard' onClick={() => onClose(id)}>X</button>
           <h2>Name: {name}</h2>
-          <h2>Status: {status}</h2>
-          <h2>Species: {species}</h2>
-          <h2>Género: {gender}</h2>
-          <h2>Origen: {origin}</h2>
+          <h4>Status: {status}</h4>
+          <h4>Species: {species}</h4>
+          <h4>Género: {gender}</h4>
+          <h4>Origen: {origin}</h4>
           <img className='imgcard' src={image} alt={name} />
         </>
     </div>

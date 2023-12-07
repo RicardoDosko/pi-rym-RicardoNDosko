@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import Card from '../Card/Card'; // Importa el componente Card correctamente
 
-export default function Cards({ characters }) {
+export default function Cards({ characters,onClose }) {
   return (
     <div className='cardsContainer'>
       {characters.map((character) => (
@@ -15,9 +16,7 @@ export default function Cards({ characters }) {
           gender={character.gender}
           origin={character.origin.name} 
           image={character.image}
-          onClose={() =>
-            window.alert(`Emulamos que se cierra la card de ${character.name}`)
-          }
+          onClose={onClose}
         />
       ))}
     </div>
